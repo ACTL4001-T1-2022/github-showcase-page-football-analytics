@@ -274,15 +274,7 @@ Table 6.1
 
 Risk Map
 
-1 0.9 0.8 0.7 0.6 0.5 Impa0ct.4 0.3 0.2 0.1 0
-
-||Liquid Terror|<p>tiy Risk sim</p><p>Recess Player</p>|<p>O</p><p>ion</p><p>s Leaves</p>|utcompet Pande|ed mic||Star O|Player pponent|s Injured|
-| :- | - | :- | - | -: | - | :- | - | - | - |
-|||||||||||
-|||||||||||
-0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 Likelihood
-
-Figure 6.1 
+![Risk Map](https://user-images.githubusercontent.com/103352144/162609731-ea4fabc6-c6d2-49f6-bcf0-111dc114185e.png)
 
 As illustrated in the diagram above, the qualitative risks have an ideal trade-off between impact and likelihood. Furthermore, the risk map illustrates the impact and likelihood 
 
