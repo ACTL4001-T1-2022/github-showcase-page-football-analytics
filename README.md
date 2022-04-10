@@ -46,7 +46,7 @@ Competitive viability for team selection as follows:
 - Maintain a sound financial standing, generating profits to boost the economy over the next 10 years 
 - Build a skilled team by choosing the best players using our selection criteria defined below 
 
-Selection Criteria 
+##Selection Criteria 
 
 The rationale behind player selection is centred around salaries. Specifically, whilst player salaries are known, the approach taken assumes that some players are overpaid or underpaid based on their skills and performance. According to a study conducted by Togler & Schmidt, salary has a significant predictor of a player’s performance (2007) [1]. Hence, a Gradient Boosting Machine Regression (GBM) was used to predict skill-based salaries. 
 
