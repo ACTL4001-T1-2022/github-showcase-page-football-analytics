@@ -3,8 +3,9 @@
 
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 001](https://user-images.githubusercontent.com/103352579/162608657-f0c744f0-cc80-4f9d-aa18-4ff24eb06bc8.jpeg)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352579/162608657-f0c744f0-cc80-4f9d-aa18-4ff24eb06bc8.jpeg" > 
+</p>
 ---
 
 # Table of Contents
@@ -41,11 +42,15 @@ Recognising the relation between salary and skill, we use the GBM to choose the 
 
 A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team.These probabilities were averaged to create a metric for overall team competitiveness. Competitiveness was quantified by a categorical proxy variable labelled Top10, where:
 
-![Screen Shot 2022-04-10 at 7 55 01 pm](https://user-images.githubusercontent.com/103352150/162612755-fa95f495-e093-4c8a-a2b5-e187fe3c61ad.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352150/162612755-fa95f495-e093-4c8a-a2b5-e187fe3c61ad.png" > 
+</p>
 
 This Top10 variable was the dependent variable of the logistic regression, with the explanatory variables being the relevant skill columns for the position. For example, the goalkeeping logistic regression modelled was as follows:
 
-![Screen Shot 2022-04-10 at 7 55 06 pm](https://user-images.githubusercontent.com/103352150/162612750-e3cc670e-d456-4496-a37d-9f3d482fd5df.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352150/162612750-e3cc670e-d456-4496-a37d-9f3d482fd5df.png" > 
+</p>
 
 Average Pr(Competitive team) = 0.60
 
