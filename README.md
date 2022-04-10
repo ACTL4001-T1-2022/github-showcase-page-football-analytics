@@ -35,59 +35,13 @@ Competitive viability for team selection as follows:
 
 The rationale behind player selection is centred around salaries. Specifically, whilst player salaries are known, the approach taken assumes that some players are overpaid or underpaid based on their skills and performance. According to a study conducted by Togler & Schmidt, salary has a significant predictor of a player’s performance (2007) [1]. Hence, a Gradient Boosting Machine Regression (GBM) was used to predict skill-based salaries. 
 
-Recognising the relation between salary and skill, we use the GBM to choose the highest paid and under-priced players for every position as shown in figures below. All high salary players belong to countries ranking in the top 10 tournament standings to boost the “competitiveness” of our team. Furthermore, we have also chosen young and the most under-priced players to maintain a competitive team throughout the next 10 years, while remaining financially sustainable (shown below). We have also included at least 1 Raritan national for every position, to promote the sport within the country (shown below).  
-
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 002](https://user-images.githubusercontent.com/103352579/162608659-38a23897-6f03-4a91-9723-811a1c31892c.jpeg)
-
-Figure 2.1: Forwards Selection 
-
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 003](https://user-images.githubusercontent.com/103352579/162608660-3d54be38-ed3a-4bf0-86c1-1e3a01691d59.jpeg)
-
-Figure 2.2: Midfielders Selection 
-
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 004](https://user-images.githubusercontent.com/103352579/162608661-d7639aef-0001-4b20-a7c1-f07346cee63f.jpeg)
-
-Figure 2.3: Defenders Selection 
-
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 005](https://user-images.githubusercontent.com/103352579/162608662-82d726f2-ffe9-4423-b58f-5d6e701e3534.jpeg)
-
-Figure 2.4: Goalkeepers Selection 
+Recognising the relation between salary and skill, we use the GBM to choose the highest paid and under-priced players for every position as shown in figures below. All high salary players belong to countries ranking in the top 10 tournament standings to boost the “competitiveness” of our team. Furthermore, we have also chosen young and the most under-priced players to maintain a competitive team throughout the next 10 years, while remaining financially sustainable (shown below). We have also included at least 1 Raritan national for every position, to promote the sport within the country.  
 
 ## Probability of Being Competitive 
 
-A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team. 
+A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team with an Average Pr(Competitive team) of  0.60. 
 
 ![image](https://user-images.githubusercontent.com/103352144/162610593-18c830b4-993d-4730-bbba-1cdc040dcc3d.png)
-
-The probability results are as follows: 
-
-|Forward |
-| - |
-|D.Makumbi |0.48395421 |
-|N. Opolot |0.54504902 |
-|Q. Khumalo |7.44x10-7 |
-|O. Pellegrini |0.83655235 |
-|Midfielder (Passing data) |
-|X. Tu |0.12154017 |
-|X. Wouters |1 |
-|C. Neri |0.99995889 |
-|Defence |
-|H.Sinaga |0.99973321 |
-|Q. bin Ismail |0.01440562 |
-|I. Khalili |0.1925561 |
-|Y. Jain |0.88547902 |
-|C. Tukamushaba |0.99995155 |
-|G. Tukwasibwe |0.00479918 |
-|Goalkeeper |
-|X. Driscoll |0.84234566 |
-|F. Akumu |0.80176303 |
-|A. Lamunu |0.81824187 |
-
-    Table 2.1 
-
-Average Pr(Competitive team) = 0.596645664 
-
-
 
 A majority of players have a probability greater than 80% of being part of a competitive team. There exist a few players with low probabilities (chosen based on their under-priced salary relative to performance). However, they are greatly outnumbered and may improve as explained below. 
 
@@ -97,7 +51,7 @@ Positive peer effects can enable lower probability players to increase their pro
 
 We have used Holt-Winters forecasting, a time series method to predict the future revenues based on historical data provided. This method assigns exponentially decreasing weights to older values, keeping our results relevant, and as better to data without an obvious trend or pattern [3]. 
 
-Inflation was predicted using exponential forecasting over the next 10 years and used in all calculations (Appendix A2). 
+Inflation was predicted using exponential forecasting over the next 10 years and used in all calculations. 
 
 
 |YEAR |Revenue (∂millions) |Expenses (∂millions) |Salaries (∂millions) |Profits (∂millions) |
@@ -115,10 +69,9 @@ Inflation was predicted using exponential forecasting over the next 10 years and
 
         Table 2.2 
 
-Using the spot rates provided and assumption (1), the Net Present Value (NPV) was calculated (Appendix A2). Results shown below for: 
+Using the spot rates provided and assumption (1), the results of the calculated NPV is shown below:
 
 TOTAL NET PRESENT VALUES (∂Millions) 
-
 
 
 ||SALARY |1,953.8 |
@@ -280,7 +233,7 @@ before risk mitigation is implemented. Hence, after these strategies are impleme
 
 ## Quantitative Risk: Implementation Modelling Risk 
 
-The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.  
+The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.The test results are depicted in the graphs above,as indicated in Figures 6.2 and 6.3, the goodness-of-fit of the GBM outperforms that of MLR.
 
 ![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 007](https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg)
 
@@ -292,19 +245,6 @@ Figure 6.2: GBM Goodness of Fit Graphs
 
 Figure 6.3: MLR Goodness of Fit Graphs 
 
-
-
-|Model |MSE |
-| - | - |
-||Shooting |Midfielders |Goalkeeping |Defence |
-|GBM |53,923,766,789,177 |110,805,631,437,150 |64,950,070,109,339 |37,352,472,693,815 |
-|MLR |44,769,078,068,805 |679,767,356,578,069 |46,714,531,521,094 |40,556,600,000,000 |
-
-                            Table 6.2 
-
-Both models use 2020 salaries as the training dataset and 2021 salaries as the testing 
-
-dataset. The test results are depicted in the graphs and tables above. As indicated in Figures 6.1 and 6.2, the goodness-of-fit of the GBM outperforms that of MLR. Furthermore, as shown in the table, whilst most positions have comparably similar MSEs, the Midfielder MSE for MLR is considerably larger than for GBM. For these two reasons, the GBM was chosen for modelling skill-based salaries. 
 
 # Data and Data Limitations 
 - Data cleaning has been performed by using multicollinearity matrix (Appendix A5). Furthermore, noise in the data has been reduced by eliminating/modifying data accordingly (Appendix A4). 
