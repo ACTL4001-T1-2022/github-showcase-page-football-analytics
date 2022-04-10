@@ -301,6 +301,7 @@ Figure 6.3: MLR Goodness of Fit Graphs
 ||Shooting |Midfielders |Goalkeeping |Defence |
 |GBM |53,923,766,789,177 |110,805,631,437,150 |64,950,070,109,339 |37,352,472,693,815 |
 |MLR |44,769,078,068,805 |679,767,356,578,069 |46,714,531,521,094 |40,556,600,000,000 |
+
 Table 6.2 
 
 Both models use 2020 salaries as the training dataset and 2021 salaries as the testing 
