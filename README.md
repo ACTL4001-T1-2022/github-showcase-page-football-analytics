@@ -56,7 +56,9 @@ Figure 2.4: Goalkeepers Selection
 
 ## Probability of Being Competitive 
 
-A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team (Appendix A3).  
+A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team. 
+
+![image](https://user-images.githubusercontent.com/103352144/162610593-18c830b4-993d-4730-bbba-1cdc040dcc3d.png)
 
 The probability results are as follows: 
 
