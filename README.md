@@ -105,17 +105,23 @@ Applying this framework will illuminate how a competitive football team can impr
 
 Standard macroeconomic theory indicates that the multiplier can be computed by:
 
-![Screen Shot 2022-04-10 at 8 01 07 pm](https://user-images.githubusercontent.com/103352150/162612950-20eb51b2-3060-42ce-8253-6341b044de08.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352150/162612950-20eb51b2-3060-42ce-8253-6341b044de08.png" > 
+</p>
+
 
 Where k=the multiplier and MPS = the Marginal Propensity to Save. The MPS indicates the proportion that is saved for every extra unit of income. Hence the intuition for this formula is that the greater one’s MPS, the less money continues to flow through the economy. Therefore, a greater MPS will result in a lower multiplier. 
 
 To compute Rarita’s MPS the following formula was used:
 
-![Screen Shot 2022-04-10 at 8 01 46 pm](https://user-images.githubusercontent.com/103352150/162612975-c5603520-48fd-49e5-8fe8-d58954f2586f.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352150/162612975-c5603520-48fd-49e5-8fe8-d58954f2586f.png" > 
+</p>
 Which was determined using the economic data given by:
 
-![Screen Shot 2022-04-10 at 8 04 41 pm](https://user-images.githubusercontent.com/103352150/162613087-92eb1f67-704d-4e21-80d5-12cc7c6cc227.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352150/162613087-92eb1f67-704d-4e21-80d5-12cc7c6cc227.png" > 
+</p>
 
 A multiplier of 1.7 has been calculated for Rarita’s economy using the GDP and household savings rate data given. Using the projected profits of the football team, this multiplier will determine the total increase in the country’s GDP. The results to total GDP are shown below: 
 
