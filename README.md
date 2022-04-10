@@ -1,9 +1,20 @@
 # Actuarial Theory and Practice A
 # Modelling Rarita's New Football Team and its Economic Impact
 
-_"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
+__By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
 ---
+
+## Table of Contents
+Objectives of Analysis
+Team Selection
+Economic Impact
+Implementation Plan
+Assumptions
+Risk Mitigation Strategies
+Data and Data Limitations
+Appendix
+References
 
 ### Congrats on completing the [2022 SOA Research Challenge](https://www.soa.org/research/opportunities/2022-student-research-case-study-challenge/)!
 
