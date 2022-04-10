@@ -39,9 +39,15 @@ Recognising the relation between salary and skill, we use the GBM to choose the 
 
 ## Probability of Being Competitive 
 
-A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team with an Average Pr(Competitive team) of  0.60. 
+A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team.These probabilities were averaged to create a metric for overall team competitiveness. Competitiveness was quantified by a categorical proxy variable labelled Top10, where:
 
-![image](https://user-images.githubusercontent.com/103352144/162610593-18c830b4-993d-4730-bbba-1cdc040dcc3d.png)
+![Screen Shot 2022-04-10 at 7 55 01 pm](https://user-images.githubusercontent.com/103352150/162612755-fa95f495-e093-4c8a-a2b5-e187fe3c61ad.png)
+
+This Top10 variable was the dependent variable of the logistic regression, with the explanatory variables being the relevant skill columns for the position. For example, the goalkeeping logistic regression modelled was as follows:
+
+![Screen Shot 2022-04-10 at 7 55 06 pm](https://user-images.githubusercontent.com/103352150/162612750-e3cc670e-d456-4496-a37d-9f3d482fd5df.png)
+
+Average Pr(Competitive team) = 0.60
 
 A majority of players have a probability greater than 80% of being part of a competitive team. There exist a few players with low probabilities (chosen based on their under-priced salary relative to performance). However, they are greatly outnumbered and may improve as explained below. 
 
@@ -90,9 +96,23 @@ We will not be loaning out players from our country as to preserve national comp
 
 According to Keynesian economic theory, an increase in one of the components of aggregate demand (AD) will lead to a multi-fold increase in total GDP through the multiplier effect. The multiplier effect encapsulates the idea that once spending is distributed, it flows on into other channels of the economy.  
 
-Applying this framework will illuminate how a competitive football team can improve Rarita’s GDP and economic performance overall. The football team’s profits will increase AD through consumption and/or investment, and thus increase total GDP by a greater amount 
+Applying this framework will illuminate how a competitive football team can improve Rarita’s GDP and economic performance overall. The football team’s profits will increase AD through consumption and/or investment, and thus increase total GDP by a greater amount via the multiplier. 
 
-via the multiplier. A multiplier of 1.7 has been calculated for Rarita’s economy using the GDP and household savings rate data given (Appendix A1). Using the projected profits of the football team, this multiplier will determine the total increase in the country’s GDP. The results to total GDP are shown below: 
+Standard macroeconomic theory indicates that the multiplier can be computed by:
+
+![Screen Shot 2022-04-10 at 8 01 07 pm](https://user-images.githubusercontent.com/103352150/162612950-20eb51b2-3060-42ce-8253-6341b044de08.png)
+
+Where k=the multiplier and MPS = the Marginal Propensity to Save. The MPS indicates the proportion that is saved for every extra unit of income. Hence the intuition for this formula is that the greater one’s MPS, the less money continues to flow through the economy. Therefore, a greater MPS will result in a lower multiplier. 
+
+To compute Rarita’s MPS the following formula was used:
+
+![Screen Shot 2022-04-10 at 8 01 46 pm](https://user-images.githubusercontent.com/103352150/162612975-c5603520-48fd-49e5-8fe8-d58954f2586f.png)
+
+Which was determined using the economic data given by:
+
+![Screen Shot 2022-04-10 at 8 04 41 pm](https://user-images.githubusercontent.com/103352150/162613087-92eb1f67-704d-4e21-80d5-12cc7c6cc227.png)
+
+A multiplier of 1.7 has been calculated for Rarita’s economy using the GDP and household savings rate data given. Using the projected profits of the football team, this multiplier will determine the total increase in the country’s GDP. The results to total GDP are shown below: 
 
 
 
@@ -257,7 +277,4 @@ Figure 6.3: MLR Goodness of Fit Graphs
 1. Mit, D. and Acemoglu, D. (2017). [online] Available at: https://economics.mit.edu/files/13900 [Accessed 19 Mar. 2022] 
 1. Elegantjbi.com. 2022. What is the Holt-Winters Forecasting Algorithm and How Can it be Used for Enterprise Analysis? [online] Available at: <https://www.elegantjbi.com/blog/what-is-the-holt-winters-forecasting-algorithm-and- how-can-it-be-used-for-enterprise-analysis.htm> [Accessed 27 March 2022]. 
 
-1. GeeksforGeeks. (2020). Time Series Analysis using ARIMA model in R Programming. 
-
-[online] Available at: https://www.geeksforgeeks.org/time-series-analysis-using-arima- model-in-r- programming/#:~:text=In%20R%20programming%2C%20arima%20%28%29%20function%2 0is%20used [Accessed 20 Mar. 2022] 
-24 
+1. GeeksforGeeks. (2020). Time Series Analysis using ARIMA model in R Programming. [online] Available at: https://www.geeksforgeeks.org/time-series-analysis-using-arima- model-in-r- programming/#:~:text=In%20R%20programming%2C%20arima%20%28%29%20function%2 0is%20used [Accessed 20 Mar. 2022] 
