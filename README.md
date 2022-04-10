@@ -3,8 +3,7 @@
 
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
- 
-  
+   
 # Table of Contents
 1. [Objectives of Analysis](#objectives-of-analysis)
 2. [Team Selection](#team-selection)
