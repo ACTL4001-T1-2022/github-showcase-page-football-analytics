@@ -257,7 +257,9 @@ Table 6.1
 
 ## Risk Map for Qualitative Risks: 
 
-![Risk Map](https://user-images.githubusercontent.com/103352144/162609731-ea4fabc6-c6d2-49f6-bcf0-111dc114185e.png)
+<p align="center">
+<img width="700" height="500" src="https://user-images.githubusercontent.com/103352144/162609731-ea4fabc6-c6d2-49f6-bcf0-111dc114185e.png" > 
+</p>
 
 As illustrated in the diagram above, the qualitative risks have an ideal trade-off between impact and likelihood. Furthermore, the risk map illustrates the impact and likelihood 
 
