@@ -17,7 +17,7 @@ __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sug
 8. [Appendix](#appendix)
 9. [References](#references)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.001.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 001](https://user-images.githubusercontent.com/103352579/162608657-f0c744f0-cc80-4f9d-aa18-4ff24eb06bc8.jpeg)
 
 # Objectives of Analysis 
 
@@ -38,19 +38,19 @@ The rationale behind player selection is centred around salaries. Specifically, 
 
 Recognising the relation between salary and skill, we use the GBM to choose the highest paid and under-priced players for every position as shown in figures below. All high salary players belong to countries ranking in the top 10 tournament standings to boost the “competitiveness” of our team. Furthermore, we have also chosen young and the most under-priced players to maintain a competitive team throughout the next 10 years, while remaining financially sustainable (shown below). We have also included at least 1 Raritan national for every position, to promote the sport within the country (shown below).  
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.002.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 002](https://user-images.githubusercontent.com/103352579/162608659-38a23897-6f03-4a91-9723-811a1c31892c.jpeg)
 
 Figure 2.1: Forwards Selection 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.003.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 003](https://user-images.githubusercontent.com/103352579/162608660-3d54be38-ed3a-4bf0-86c1-1e3a01691d59.jpeg)
 
 Figure 2.2: Midfielders Selection 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.004.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 004](https://user-images.githubusercontent.com/103352579/162608661-d7639aef-0001-4b20-a7c1-f07346cee63f.jpeg)
 
 Figure 2.3: Defenders Selection 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.005.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 005](https://user-images.githubusercontent.com/103352579/162608662-82d726f2-ffe9-4423-b58f-5d6e701e3534.jpeg)
 
 Figure 2.4: Goalkeepers Selection 
 
@@ -236,7 +236,7 @@ Schedule of reporting: Beginning of every year.
 
 This depicts the ACC implementation of the identified metrics.  
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.006.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 006](https://user-images.githubusercontent.com/103352579/162608663-340e981f-1c3d-4591-b256-91f79df3af72.jpeg)
 
 Figure 4.1 
 
@@ -292,13 +292,13 @@ before risk mitigation is implemented. Hence, after these strategies are impleme
 
 The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.  
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.007.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 007](https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.008.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 008](https://user-images.githubusercontent.com/103352579/162608666-e792e2e9-ea10-4e8d-ae9d-21a27288f2a1.jpeg)
 
 Figure 6.2: GBM Goodness of Fit Graphs 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.009.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 009](https://user-images.githubusercontent.com/103352579/162608667-c52d7d1f-15d5-450a-acda-b66549a2232a.jpeg)
 
 Figure 6.3: MLR Goodness of Fit Graphs 
 
@@ -347,11 +347,11 @@ Pr (𝑇𝑜𝑝10 = 1|𝒙) = Λ(𝛽4 + 𝛽5𝐴𝑔𝑒 + 𝛽6𝑃𝑙𝑎�
 
 ## A2: Salary & Budget Calculations using spot rates and Net Present Value (NPV) 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.010.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 010](https://user-images.githubusercontent.com/103352579/162608668-a80afe5b-cfa8-465d-976e-7537454f3ee3.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.011.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 011](https://user-images.githubusercontent.com/103352579/162608670-938a1777-b2c2-42be-82c1-cd095ca5be3a.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.012.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 012](https://user-images.githubusercontent.com/103352579/162608672-05528522-f3b4-4b32-aacb-d4c38ffdc31e.jpeg)
 
 ## A3: Calculating Rarita’s multiplier 
 
@@ -385,35 +385,38 @@ Which was determined using the economic data given by:
 
 The multiplier between all data years given (2011-2020) was computed and the average was taken to be 1.7. 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.013.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 013](https://user-images.githubusercontent.com/103352579/162608673-7e07e9fd-86bf-480c-9330-f85c54907344.jpeg)
 
-## A4: New Dictionary ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.014.png)![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.015.jpeg)
+## A4: New Dictionary 
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 014](https://user-images.githubusercontent.com/103352579/162608674-5afdafbc-4bd8-47e9-b61d-d6062f794383.png)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.016.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 015](https://user-images.githubusercontent.com/103352579/162608675-38df5fe2-199c-4c7f-a8bd-9f7693b13473.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.017.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 016](https://user-images.githubusercontent.com/103352579/162608677-309dd2b0-7c8c-4b29-9998-fcc390cdd4f7.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.018.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 017](https://user-images.githubusercontent.com/103352579/162608678-529ee991-d7a2-4178-a9ab-260b762e9e7b.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.019.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 018](https://user-images.githubusercontent.com/103352579/162608679-2966cac3-827a-4189-aeb4-b51ee8a44129.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.020.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 019](https://user-images.githubusercontent.com/103352579/162608682-bf587f5f-482b-487e-b683-b44df64271b8.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.021.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 020](https://user-images.githubusercontent.com/103352579/162608683-b927ffe6-b5ee-46de-83bb-2f3fc4f81c71.jpeg)
+
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 021](https://user-images.githubusercontent.com/103352579/162608684-469a7329-5da7-472b-b0d1-16a27758c0a8.jpeg)
 
 ## A5: Correlation Matrices 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.022.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 022](https://user-images.githubusercontent.com/103352579/162608685-99cdd766-7618-43df-88cf-853de570f1a6.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.023.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 023](https://user-images.githubusercontent.com/103352579/162608686-d6dd0d6f-0db8-45b9-8629-82ad24a3271c.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.024.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 024](https://user-images.githubusercontent.com/103352579/162608688-a9f879f5-bed6-483e-9dbc-3a720ba114e8.jpeg)
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.025.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 025](https://user-images.githubusercontent.com/103352579/162608689-f7e4518e-e979-40c6-93ca-f885508e804e.jpeg)
 
 ## A6: Implementation Budget 
 
-![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.026.jpeg)
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 026](https://user-images.githubusercontent.com/103352579/162608690-b2ce564c-f350-4990-b464-c634c726a97d.jpeg)
 
 New training Program and Coaches: This is the budget associated with allocating training programs and coaches as part of the solution introduced.  
 
