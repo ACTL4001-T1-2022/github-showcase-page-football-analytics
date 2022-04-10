@@ -3,6 +3,8 @@
 
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
+![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 001](https://user-images.githubusercontent.com/103352579/162608657-f0c744f0-cc80-4f9d-aa18-4ff24eb06bc8.jpeg)
+
 ---
 
 # Table of Contents
@@ -16,8 +18,6 @@ __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sug
 7. [Data and Data Limitations](#data-and-data-limitations)
 8. [Appendix](#appendix)
 9. [References](#references)
-
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 001](https://user-images.githubusercontent.com/103352579/162608657-f0c744f0-cc80-4f9d-aa18-4ff24eb06bc8.jpeg)
 
 # Objectives of Analysis 
 
