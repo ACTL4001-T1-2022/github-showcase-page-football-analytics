@@ -1,4 +1,5 @@
-# Football Analytics: Modelling Rarita's New Football Team and its Economic Impact
+# Actuarial Theory and Practice A
+# Modelling Rarita's New Football Team and its Economic Impact
 
 _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
 
