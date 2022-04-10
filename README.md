@@ -4,7 +4,7 @@
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352144/162615428-b026ee26-dd85-4c53-a888-b9212809c2a2.gif" > 
+<img src="https://user-images.githubusercontent.com/103352144/162615428-b026ee26-dd85-4c53-a888-b9212809c2a2.gif"> 
 </p>
   
   
@@ -42,13 +42,13 @@ Recognising the relation between salary and skill, we use the GBM to choose the 
 A logistic regression was implemented for relevant statistics in each position to predict the probability that an individual player would be on a competitive team.These probabilities were averaged to create a metric for overall team competitiveness. Competitiveness was quantified by a categorical proxy variable labelled Top10, where:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352150/162612755-fa95f495-e093-4c8a-a2b5-e187fe3c61ad.png" > 
+<img src="https://user-images.githubusercontent.com/103352150/162612755-fa95f495-e093-4c8a-a2b5-e187fe3c61ad.png"> 
 </p>
 
 This Top10 variable was the dependent variable of the logistic regression, with the explanatory variables being the relevant skill columns for the position. For example, the goalkeeping logistic regression modelled was as follows:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352150/162612750-e3cc670e-d456-4496-a37d-9f3d482fd5df.png" > 
+<img src="https://user-images.githubusercontent.com/103352150/162612750-e3cc670e-d456-4496-a37d-9f3d482fd5df.png"> 
 </p>
 
 Average Pr(Competitive team) = 0.60
@@ -105,7 +105,7 @@ Applying this framework will illuminate how a competitive football team can impr
 Standard macroeconomic theory indicates that the multiplier can be computed by:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352150/162612950-20eb51b2-3060-42ce-8253-6341b044de08.png" > 
+<img src="https://user-images.githubusercontent.com/103352150/162612950-20eb51b2-3060-42ce-8253-6341b044de08.png"> 
 </p>
 
 
@@ -119,7 +119,7 @@ To compute Rarita’s MPS the following formula was used:
 Which was determined using the economic data given by:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352150/162613087-92eb1f67-704d-4e21-80d5-12cc7c6cc227.png" > 
+<img src="https://user-images.githubusercontent.com/103352150/162613087-92eb1f67-704d-4e21-80d5-12cc7c6cc227.png"> 
 </p>
 
 A multiplier of 1.7 has been calculated for Rarita’s economy using the GDP and household savings rate data given. Using the projected profits of the football team, this multiplier will determine the total increase in the country’s GDP. The results to total GDP are shown below: 
@@ -255,7 +255,7 @@ Table 6.1
 ## Risk Map for Qualitative Risks: 
 
 <p align="center">
-<img width="700" height="500" src="https://user-images.githubusercontent.com/103352144/162609731-ea4fabc6-c6d2-49f6-bcf0-111dc114185e.png" > 
+<img width="700" height="500" src="https://user-images.githubusercontent.com/103352144/162609731-ea4fabc6-c6d2-49f6-bcf0-111dc114185e.png"> 
 </p>
 
 As illustrated in the diagram above, the qualitative risks have an ideal trade-off between impact and likelihood. Furthermore, the risk map illustrates the impact and likelihood 
@@ -268,13 +268,13 @@ The quantitative risk considered was the accuracy of the salary models. Two mode
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352144/162615666-5052c31e-a8d2-498b-9fba-09c8cad861be.png" > 
+<img src="https://user-images.githubusercontent.com/103352144/162615666-5052c31e-a8d2-498b-9fba-09c8cad861be.png"> 
 </p>
 
 Figure 6.2: GBM Goodness of Fit Graphs 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352144/162615677-a2916df2-ed87-4a2e-ae25-34d50923780d.png" > 
+<img src="https://user-images.githubusercontent.com/103352144/162615677-a2916df2-ed87-4a2e-ae25-34d50923780d.png"> 
  </p>
 
 Figure 6.3: MLR Goodness of Fit Graphs 
