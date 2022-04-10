@@ -292,4 +292,3 @@ Figure 6.3: MLR Goodness of Fit Graphs
 1. Elegantjbi.com. 2022. What is the Holt-Winters Forecasting Algorithm and How Can it be Used for Enterprise Analysis? [online] Available at: <https://www.elegantjbi.com/blog/what-is-the-holt-winters-forecasting-algorithm-and- how-can-it-be-used-for-enterprise-analysis.htm> [Accessed 27 March 2022]. 
 
 1. GeeksforGeeks. (2020). Time Series Analysis using ARIMA model in R Programming. [online] Available at: https://www.geeksforgeeks.org/time-series-analysis-using-arima- model-in-r- programming/#:~:text=In%20R%20programming%2C%20arima%20%28%29%20function%2 0is%20used [Accessed 20 Mar. 2022] 
-```
