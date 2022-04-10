@@ -17,31 +17,7 @@ __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sug
 8. [Appendix](#appendix)
 9. [References](#references)
 
-## My first title
-Some text.
-## My second title
-
-Football Analytics: Modelling Rarita’s New Football Team and its Economic Impact 
-
-ACTL4001 Group Project Pratyush Charde 
-
-Abinesh David Saraf Jilani Areeba Khan Theodore Sugita 
-
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.001.jpeg)
-
-Table of Contents 
-
-1. Objectives of Analysis 	 3 
-1. Team Selection 	 3 
-1. Economic Impact 	 7 
-1. Implementation Plan 	 8 
-1. Assumptions 	 10 
-1. Risk Mitigation Strategies 	 11 
-1. Data & Data Limitations 	 14 
-1. Appendix 	 15 
-1. References 	 22
-
-
 
 # Objectives of Analysis 
 
