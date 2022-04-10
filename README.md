@@ -46,7 +46,7 @@ Competitive viability for team selection as follows:
 - Maintain a sound financial standing, generating profits to boost the economy over the next 10 years 
 - Build a skilled team by choosing the best players using our selection criteria defined below 
 
-##Selection Criteria 
+Selection Criteria 
 
 The rationale behind player selection is centred around salaries. Specifically, whilst player salaries are known, the approach taken assumes that some players are overpaid or underpaid based on their skills and performance. According to a study conducted by Togler & Schmidt, salary has a significant predictor of a player’s performance (2007) [1]. Hence, a Gradient Boosting Machine Regression (GBM) was used to predict skill-based salaries. 
 
@@ -250,7 +250,7 @@ Figure 4.1
 
 Note: Appendix A6 breaks down the budget allocation for the implementation timeline across the different key metrics identified in the analysis above.  
 
-5. Assumptions 
+# 5. Assumptions 
 - Average staff expenses to total expenses were found to be 66% for all other countries. Assuming staff expenses majorly consists of salaries, we have replicated this ratio in calculating expenses & salaries (Appendix A2) in the table above.  
 - Assume a multiplier effect of 1.7, given the calculations performed (Appendix A3). 
 - The players have signed a lock-in contract that prevents them from quitting. However, the contract is contingent on their performance where the country retains the right to reduce their yearly salaries with a 2-month warning notice before taking any action.  
@@ -260,9 +260,11 @@ Note: Appendix A6 breaks down the budget allocation for the implementation timel
 - Rarita’s economy is suitably similar to that of the other top ten nations. 
 - The cost of training excluded from calculating expenses. 
 - Players will remain over a tenure above ten years (hence players younger than 27 years old). 
-6. Risk Mitigation Strategies 
 
-RCD Tool with Risk Mitigation Response (Qualitative Risks) 
+
+# 6. Risk Mitigation Strategies 
+
+## RCD Tool with Risk Mitigation Response (Qualitative Risks) 
 
 
 
@@ -278,7 +280,7 @@ RCD Tool with Risk Mitigation Response (Qualitative Risks)
 |Financial |Liquidity  |Liquidity risk if cash flows become negative |Reduce: raise capital from investment banks and other non – governmental funding  |
 Table 6.1 
 
-Risk Map for Qualitative Risks: 
+## Risk Map for Qualitative Risks: 
 
 Risk Map
 
@@ -296,7 +298,7 @@ As illustrated in the diagram above, the qualitative risks have an ideal trade-o
 
 before risk mitigation is implemented. Hence, after these strategies are implemented, it is expected that these likelihoods will fall significantly. In the case of ‘Player Leaves’, likelihood will fall to zero, due to the introduction of lock-in contracts. 
 
-Quantitative Risk: Implementation Modelling Risk 
+## Quantitative Risk: Implementation Modelling Risk 
 
 The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.  
 
@@ -323,14 +325,15 @@ Both models use 2020 salaries as the training dataset and 2021 salaries as the t
 
 dataset. The test results are depicted in the graphs and tables above. As indicated in Figures 6.1 and 6.2, the goodness-of-fit of the GBM outperforms that of MLR. Furthermore, as shown in the table, whilst most positions have comparably similar MSEs, the Midfielder MSE for MLR is considerably larger than for GBM. For these two reasons, the GBM was chosen for modelling skill-based salaries. 
 
-7. Data & Data Limitations 
+# 7. Data & Data Limitations 
 - Data cleaning has been performed by using multicollinearity matrix (Appendix A5). Furthermore, noise in the data has been reduced by eliminating/modifying data accordingly (Appendix A4). 
 - Missing data has been imputed as tournament averages. 
 - Only four years of data was provided for Holt-Winters forecasting, which did not allow for the detection of any seasonality.  
 - The tournament data for players consisted of variables that had more than 80% of missing values (for e.g., Standard Dist). These variables were removed from consideration.  
-8. Appendix 
 
-A1: Logistic Regression Model for Pr(Competitive) 
+# 8. Appendix 
+
+## A1: Logistic Regression Model for Pr(Competitive) 
 
 These probabilities were averaged to create a metric for overall team competitiveness. 
 
@@ -352,7 +355,7 @@ Pr (𝑇𝑜𝑝10 = 1|𝒙) = Λ(𝛽4 + 𝛽5𝐴𝑔𝑒 + 𝛽6𝑃𝑙𝑎�
 
 Ø
 
-A2: Salary & Budget Calculations using spot rates and Net Present Value (NPV) 
+## A2: Salary & Budget Calculations using spot rates and Net Present Value (NPV) 
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.010.jpeg)
 
@@ -360,7 +363,7 @@ A2: Salary & Budget Calculations using spot rates and Net Present Value (NPV)
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.012.jpeg)
 
-A3: Calculating Rarita’s multiplier 
+## A3: Calculating Rarita’s multiplier 
 
 Standard macroeconomic theory indicates that the multiplier can be computed by: 
 
@@ -394,7 +397,7 @@ The multiplier between all data years given (2011-2020) was computed and the ave
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.013.jpeg)
 
-A4: New Dictionary ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.014.png)![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.015.jpeg)
+## A4: New Dictionary ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.014.png)![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.015.jpeg)
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.016.jpeg)
 
@@ -408,7 +411,7 @@ A4: New Dictionary ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.014.png
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.021.jpeg)
 
-A5: Correlation Matrices 
+## A5: Correlation Matrices 
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.022.jpeg)
 
@@ -418,7 +421,7 @@ A5: Correlation Matrices
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.025.jpeg)
 
-A6: Implementation Budget 
+## A6: Implementation Budget 
 
 ![](Aspose.Words.27e20f33-eb6d-4efe-8a9a-c53b3fcd9610.026.jpeg)
 
@@ -430,7 +433,7 @@ Modelling Assessment Cost: Actuaries and consultants hired to conduct the job ev
 
 Other Cushion Cost: For any emergencies or other costs.  
 
-9. References 
+# 9. References 
 1. ResearchGate. (n.d.). (PDF) What shapes player performance in soccer? Empirical findings from a panel analysis. [online] Available at: https://www.researchgate.net/publication/43104075\_What\_shapes\_player\_performance\_i n\_soccer\_Empirical\_findings\_from\_a\_panel\_analysis [Accessed 18 Mar. 2022]. 
 1. Mit, D. and Acemoglu, D. (2017). [online] Available at: https://economics.mit.edu/files/13900 [Accessed 19 Mar. 2022] 
 1. Elegantjbi.com. 2022. What is the Holt-Winters Forecasting Algorithm and How Can it be Used for Enterprise Analysis? [online] Available at: <https://www.elegantjbi.com/blog/what-is-the-holt-winters-forecasting-algorithm-and- how-can-it-be-used-for-enterprise-analysis.htm> [Accessed 27 March 2022]. 
