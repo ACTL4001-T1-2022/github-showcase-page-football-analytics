@@ -267,15 +267,15 @@ before risk mitigation is implemented. Hence, after these strategies are impleme
 
 The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.The test results are depicted in the graphs above,as indicated in Figures 6.2 and 6.3, the goodness-of-fit of the GBM outperforms that of MLR.
 
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 007](https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg)
 
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 008](https://user-images.githubusercontent.com/103352579/162608666-e792e2e9-ea10-4e8d-ae9d-21a27288f2a1.jpeg)
 
-Figure 6.2: GBM Goodness of Fit Graphs 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/103352579/162608663-340e981f-1c3d-4591-b256-91f79df3af72.jpeg" > 
+<img src="https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg" > 
 </p>
+Figure 6.2: GBM Goodness of Fit Graphs 
+
+
 
 Figure 6.3: MLR Goodness of Fit Graphs 
 
