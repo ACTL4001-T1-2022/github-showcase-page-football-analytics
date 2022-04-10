@@ -221,7 +221,9 @@ Schedule of reporting: Beginning of every year.
 This depicts the ACC implementation of the identified metrics.  
 
 ![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 006](https://user-images.githubusercontent.com/103352579/162608663-340e981f-1c3d-4591-b256-91f79df3af72.jpeg)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352579/162608663-340e981f-1c3d-4591-b256-91f79df3af72.jpeg" > 
+</p>
 Figure 4.1 
 
 Note: Appendix A6 breaks down the budget allocation for the implementation timeline across the different key metrics identified in the analysis above.  
