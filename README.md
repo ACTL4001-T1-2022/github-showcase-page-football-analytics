@@ -125,7 +125,6 @@ Which was determined using the economic data given by:
 A multiplier of 1.7 has been calculated for Rarita’s economy using the GDP and household savings rate data given. Using the projected profits of the football team, this multiplier will determine the total increase in the country’s GDP. The results to total GDP are shown below: 
 
 
-
 |YEAR |PROFITS  (∂ Millions) |Impact to Total GDP (∂ Millions) |Impact to Total GDP |
 | - | :- | :- | - |
 |1 |121|205.7 |∂2.49B |
