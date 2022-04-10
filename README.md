@@ -62,10 +62,6 @@ A logistic regression was implemented for relevant statistics in each position t
 
 The probability results are as follows: 
 
-5 
-
-
-
 |Forward |
 | - |
 |D.Makumbi |0.48395421 |
@@ -88,9 +84,9 @@ The probability results are as follows:
 |F. Akumu |0.80176303 |
 |A. Lamunu |0.81824187 |
 
-Table 2.1 
+    Table 2.1 
 
-Average Pr(Competitive team) = 0.596645664 
+Average Pr(Competitive team) = 0.596645664 
 
 
 
@@ -103,7 +99,6 @@ Positive peer effects can enable lower probability players to increase their pro
 We have used Holt-Winters forecasting, a time series method to predict the future revenues based on historical data provided. This method assigns exponentially decreasing weights to older values, keeping our results relevant, and as better to data without an obvious trend or pattern [3]. 
 
 Inflation was predicted using exponential forecasting over the next 10 years and used in all calculations (Appendix A2). 
-
 
 
 |YEAR |Revenue (∂millions) |Expenses (∂millions) |Salaries (∂millions) |Profits (∂millions) |
@@ -119,7 +114,7 @@ Inflation was predicted using exponential forecasting over the next 10 years and
 |9 |490 |292.3 |225.3 |198 |
 |10 |500 |288.1 |229.5 |212 |
 
-Table 2.2 
+        Table 2.2 
 
 Using the spot rates provided and assumption (1), the Net Present Value (NPV) was calculated (Appendix A2). Results shown below for: 
 
@@ -133,7 +128,7 @@ TOTAL NET PRESENT VALUES (∂Millions)
 ||EXPENSES |2,764.2 |
 ||PROFITS |1,466.6 |
 
-Table 2.3 
+    Table 2.3 
 
 We will not be loaning out players from our country as to preserve national competitiveness. Furthermore, our models have predicted that we have approximately 47% of our budget remaining after considering all direct team expenses for the next 10 years.   
 
@@ -162,7 +157,7 @@ via the multiplier. A multiplier of 1.7 has been calculated for Rarita’s econo
 |9 |198|336.6 ||
 |10 |212|360.4 ||
 
-Table 3.1 
+    Table 3.1 
 
 The total impact to GDP was projected to have a NPV of ∂2.49B using cashflows discounted by spot rates with yearly yield to maturity for 2021. 
 
@@ -306,7 +301,7 @@ Figure 6.3: MLR Goodness of Fit Graphs
 |GBM |53,923,766,789,177 |110,805,631,437,150 |64,950,070,109,339 |37,352,472,693,815 |
 |MLR |44,769,078,068,805 |679,767,356,578,069 |46,714,531,521,094 |40,556,600,000,000 |
 
-Table 6.2 
+                            Table 6.2 
 
 Both models use 2020 salaries as the training dataset and 2021 salaries as the testing 
 
