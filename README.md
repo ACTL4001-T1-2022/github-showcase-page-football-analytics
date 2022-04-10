@@ -225,11 +225,9 @@ This depicts the ACC implementation of the identified metrics.
 </p>
 Figure 4.1 
 
-Note: Appendix A6 breaks down the budget allocation for the implementation timeline across the different key metrics identified in the analysis above.  
-
 # Assumptions 
-- Average staff expenses to total expenses were found to be 66% for all other countries. Assuming staff expenses majorly consists of salaries, we have replicated this ratio in calculating expenses & salaries (Appendix A2) in the table above.  
-- Assume a multiplier effect of 1.7, given the calculations performed (Appendix A3). 
+- Average staff expenses to total expenses were found to be 66% for all other countries. Assuming staff expenses majorly consists of salaries, we have replicated this ratio in calculating expenses & salaries in the table above.  
+- Assume a multiplier effect of 1.7, given the calculations performed. 
 - The players have signed a lock-in contract that prevents them from quitting. However, the contract is contingent on their performance where the country retains the right to reduce their yearly salaries with a 2-month warning notice before taking any action.  
 - No government mandated lockdowns or restrictions.  
 - Players can play for countries other than their nationalities. 
@@ -270,20 +268,20 @@ before risk mitigation is implemented. Hence, after these strategies are impleme
 The quantitative risk considered was the accuracy of the salary models. Two models (GBM, MLR) were fitted, and model selection was determined using MSE and goodness-of-fit  graphs.The test results are depicted in the graphs above,as indicated in Figures 6.2 and 6.3, the goodness-of-fit of the GBM outperforms that of MLR.
 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg" > 
+</p>
 
+Figure 6.2: GBM Goodness of Fit Graphs 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/103352579/162608664-33959d0b-d2ae-4eec-8c46-3fbe621e97ad.jpeg" > 
 </p>
-Figure 6.2: GBM Goodness of Fit Graphs 
-
-
-
 Figure 6.3: MLR Goodness of Fit Graphs 
 
 
 # Data and Data Limitations 
-- Data cleaning has been performed by using multicollinearity matrix (Appendix A5). Furthermore, noise in the data has been reduced by eliminating/modifying data accordingly (Appendix A4). 
+- Data cleaning has been performed by using multicollinearity matrix. Furthermore, noise in the data has been reduced by eliminating/modifying data accordingly. 
 - Missing data has been imputed as tournament averages. 
 - Only four years of data was provided for Holt-Winters forecasting, which did not allow for the detection of any seasonality.  
 - The tournament data for players consisted of variables that had more than 80% of missing values (for e.g., Standard Dist). These variables were removed from consideration.  
