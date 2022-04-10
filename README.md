@@ -87,6 +87,7 @@ The probability results are as follows:
 |X. Driscoll |0.84234566 |
 |F. Akumu |0.80176303 |
 |A. Lamunu |0.81824187 |
+
 Table 2.1 
 
 Average Pr(Competitive team) = 0.596645664 
@@ -117,6 +118,7 @@ Inflation was predicted using exponential forecasting over the next 10 years and
 |8 |480 |296.1 |221.0 |184 |
 |9 |490 |292.3 |225.3 |198 |
 |10 |500 |288.1 |229.5 |212 |
+
 Table 2.2 
 
 Using the spot rates provided and assumption (1), the Net Present Value (NPV) was calculated (Appendix A2). Results shown below for: 
@@ -130,6 +132,7 @@ TOTAL NET PRESENT VALUES (∂Millions)
 ||REVENUE |4,230.7 |
 ||EXPENSES |2,764.2 |
 ||PROFITS |1,466.6 |
+
 Table 2.3 
 
 We will not be loaning out players from our country as to preserve national competitiveness. Furthermore, our models have predicted that we have approximately 47% of our budget remaining after considering all direct team expenses for the next 10 years.   
@@ -158,6 +161,7 @@ via the multiplier. A multiplier of 1.7 has been calculated for Rarita’s econo
 |8 |184|312.8 ||
 |9 |198|336.6 ||
 |10 |212|360.4 ||
+
 Table 3.1 
 
 The total impact to GDP was projected to have a NPV of ∂2.49B using cashflows discounted by spot rates with yearly yield to maturity for 2021. 
