@@ -273,7 +273,9 @@ The quantitative risk considered was the accuracy of the salary models. Two mode
 
 Figure 6.2: GBM Goodness of Fit Graphs 
 
-![Aspose Words 27e20f33-eb6d-4efe-8a9a-c53b3fcd9610 009](https://user-images.githubusercontent.com/103352579/162608667-c52d7d1f-15d5-450a-acda-b66549a2232a.jpeg)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352579/162608663-340e981f-1c3d-4591-b256-91f79df3af72.jpeg" > 
+</p>
 
 Figure 6.3: MLR Goodness of Fit Graphs 
 
