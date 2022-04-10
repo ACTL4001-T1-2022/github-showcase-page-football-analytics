@@ -3,10 +3,7 @@
 
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/103352144/162615428-b026ee26-dd85-4c53-a888-b9212809c2a2.gif"> 
-</p>
-  
+ 
   
 # Table of Contents
 1. [Objectives of Analysis](#objectives-of-analysis)
