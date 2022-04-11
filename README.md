@@ -3,7 +3,10 @@
 
 __By Pratyush Charde, Abinesh David, Saraf Jilani, Areeba Khan, and Theodore Sugita__
 
-   
+<p align="center">
+<img src="https://user-images.githubusercontent.com/103352144/162615677-a2916df2-ed87-4a2e-ae25-34d50923780d.png"> 
+</p>
+
 # Table of Contents
 1. [Objectives of Analysis](#objectives-of-analysis)
 2. [Team Selection](#team-selection)
